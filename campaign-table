@@ -1,0 +1,18 @@
+BigQuery Table
+
+campaign:
+
+id
+name
+description
+message
+starttime
+timestamp
+status : enum : SUBMITTED, SCHEDULED, CANCELLED, COMPLETED, FAILED
+filter-criteria: json : key & value combination
+
+
+campaign-manager
+
+-- validate input & schedule campaign(schedule Data Composer job)
+-- can take user request to cancel campaign
