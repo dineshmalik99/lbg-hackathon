@@ -16,12 +16,12 @@ const AudienceTable = ({ audiences, onDelete }) => {
     return (
         <Box sx={{ mt: 4 }}>
             <Typography variant="h6" gutterBottom>
-                Staged Audiences
+                Audiences
             </Typography>
 
             {audiences.length === 0 ? (
                 <Typography variant="body1" sx={{ mt: 2 }}>
-                    No queries staged yet.
+                    No audiences created yet.
                 </Typography>
             ) : (
                 <TableContainer component={Paper}>

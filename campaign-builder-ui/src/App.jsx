@@ -13,7 +13,7 @@ const App = () => {
       <Sidebar />
 
       <Box sx={{ flexGrow: 1 }}>
-        <TopBar />
+        <TopBar sx={{ width: '100vw' }}/>
 
         <Box sx={{ p: 2 }}>
           <Routes>
